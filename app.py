@@ -25,7 +25,6 @@ while True:
         position = (30,80)
 
         # clench // kepal
-        # if fingerUp == [0, 0, 0, 0, 0] or fingerUp == [1,0,1,1,1]: # clench or "0"-style // kepal atau angka 0 
         if fingerUp == [0, 0, 0, 0, 0]:
             cv2.putText(frame, "Neutral", position, font, 1, yellow, 1, cv2.LINE_AA)
             pyautogui.press('s')
@@ -65,8 +64,8 @@ while True:
             cv2.putText(frame, "Emergency Brake", position, font, 1, red, 1, cv2.LINE_AA)
             pyautogui.press('/')
 
-        # "call" // "telpon"
-        elif fingerUp == [0, 0, 0, 0, 1]:
+        # "ok" 
+        elif fingerUp == [1,0,1,1,1]:
             cv2.putText(frame, "Horn", position, font, 1, red, 1, cv2.LINE_AA)
             pyautogui.press('enter')
             
