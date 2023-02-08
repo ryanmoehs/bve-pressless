@@ -1,4 +1,6 @@
 # BVE-Pressless
+Youtube explanation vid 👇<br>
+[![youtube thumbnail vid](http://img.youtube.com/vi/zJsPiHQJqWM/0.jpg)](https://youtu.be/zJsPiHQJqWM)<br>
 Play BVE Train Simulator with camera <br>
 Inspired by : https://youtu.be/HgFxFOzxCPk
 
@@ -6,9 +8,14 @@ Inspired by : https://youtu.be/HgFxFOzxCPk
 > I use BVE 5. I don't know this program can be use in another version or not
 
 ## Library
+There some Python libraries I use : 
 - `opencv`
 - `pyautogui`
 - `cvzone` (You must install `mediapipe` and `opencv` first)
+
+```console
+pip install opencv pyautogui mediapipe cvzone
+```
 
 ## BVE Settings
 `Preferences... > Input Devices > Key assignments...`
